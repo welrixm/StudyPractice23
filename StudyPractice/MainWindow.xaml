@@ -1,0 +1,80 @@
+﻿<Window x:Class="StudyPractice.MainWindow"
+        xmlns="http://schemas.microsoft.com/winfx/2006/xaml/presentation"
+        xmlns:x="http://schemas.microsoft.com/winfx/2006/xaml"
+        xmlns:d="http://schemas.microsoft.com/expression/blend/2008"
+        xmlns:mc="http://schemas.openxmlformats.org/markup-compatibility/2006"
+        xmlns:local="clr-namespace:StudyPractice"
+        mc:Ignorable="d"
+        Title="MainWindow" Height="450" Width="800">
+    <Grid>
+        <!--<Grid.ColumnDefinitions>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+            <ColumnDefinition></ColumnDefinition>
+
+        </Grid.ColumnDefinitions>-->
+        <!--<Grid.RowDefinitions>
+            <RowDefinition Height="50"></RowDefinition>
+            <RowDefinition></RowDefinition>
+            <RowDefinition Height="20"></RowDefinition>
+
+        </Grid.RowDefinitions>-->
+        <ScrollViewer>
+            <DockPanel>
+                <TextBlock Grid.Row="0"   Background="Aqua"  Text="ggggggggg" DockPanel.Dock="Top"></TextBlock>
+
+                <!--<TextBlock    Background="AntiqueWhite" Text="ggggggggg" ></TextBlock>-->
+                <TextBox x:Name="Tb" Grid.Row="1" DockPanel.Dock="Top" Text="dd"></TextBox>
+                <Button Grid.Row="2" DockPanel.Dock="Top" Height="30" Content="Button" Click="Button_Click"></Button>
+                <StackPanel Grid.Row="1" Orientation="Horizontal" DockPanel.Dock="Top">
+                    <TextBlock Text="Content123"  FontSize="30"></TextBlock>
+                    <TextBlock  Grid.Row="1" Text="Content456" FontSize="30"></TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Orientation="Horizontal" DockPanel.Dock="Top">
+                    <TextBlock Text="Content123"  FontSize="30"></TextBlock>
+                    <TextBlock  Grid.Row="1" Text="Content456" FontSize="30"></TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Orientation="Horizontal" DockPanel.Dock="Top">
+                    <TextBlock Text="Content123"  FontSize="30"></TextBlock>
+                    <TextBlock  Grid.Row="1" Text="Content456" FontSize="30"></TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Orientation="Horizontal" DockPanel.Dock="Top">
+                    <TextBlock Text="Content123"  FontSize="30"></TextBlock>
+                    <TextBlock  Grid.Row="1" Text="Content456" FontSize="30"></TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Orientation="Horizontal" DockPanel.Dock="Top">
+                    <TextBlock Text="Content123"  FontSize="30"></TextBlock>
+                    <TextBlock  Grid.Row="1" Text="Content456" FontSize="30"></TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Orientation="Horizontal" DockPanel.Dock="Top">
+                    <TextBlock Text="Content123"  FontSize="30"></TextBlock>
+                    <TextBlock  Grid.Row="1" Text="Content456" FontSize="30"></TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Orientation="Horizontal" DockPanel.Dock="Top">
+                    <TextBlock Text="Content123"  FontSize="30"></TextBlock>
+                    <TextBlock  Grid.Row="1" Text="Content456" FontSize="30"></TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Orientation="Horizontal" DockPanel.Dock="Top">
+                    <TextBlock Text="Content123"  FontSize="30"></TextBlock>
+                    <TextBlock  Grid.Row="1" Text="Content456" FontSize="30"></TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Orientation="Horizontal" DockPanel.Dock="Top">
+                    <TextBlock Text="Content123"  FontSize="30"></TextBlock>
+                    <TextBlock  Grid.Row="1" Text="Content456" FontSize="30"></TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Orientation="Horizontal" DockPanel.Dock="Top">
+                    <TextBlock Text="Content123"  FontSize="30"></TextBlock>
+                    <TextBlock  Grid.Row="1" Text="Content456" FontSize="30"></TextBlock>
+                </StackPanel>
+                <StackPanel Grid.Row="1" Orientation="Horizontal" DockPanel.Dock="Top">
+                    <TextBlock Text="Content123"  FontSize="30"></TextBlock>
+                    <TextBlock  Grid.Row="1" Text="Content456" FontSize="30"></TextBlock>
+                </StackPanel>
+            </DockPanel>
+        </ScrollViewer>
+        
+        
+        
+    </Grid>
+</Window>
