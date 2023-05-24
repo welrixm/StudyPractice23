@@ -1,11 +1,11 @@
-﻿using System;
+﻿using StudyPractice.Models;
+using System;
 using System.Collections.Generic;
 using System.Configuration;
 using System.Data;
 using System.Linq;
 using System.Threading.Tasks;
 using System.Windows;
-
 namespace StudyPractice
 {
     /// <summary>
@@ -13,5 +13,6 @@ namespace StudyPractice
     /// </summary>
     public partial class App : Application
     {
+        public static Entities db = new Entities();
     }
 }

@@ -1,4 +1,5 @@
-﻿using System;
+﻿using StudyPractice.Pages;
+using System;
 using System.Collections.Generic;
 using System.Linq;
 using System.Text;
@@ -23,11 +24,50 @@ namespace StudyPractice
         public MainWindow()
         {
             InitializeComponent();
+            MainFrame.Navigate(new LoginPage());
         }
 
-        private void Button_Click(object sender, RoutedEventArgs e)
+        private void BTest_Click(object sender, RoutedEventArgs e)
         {
-            MessageBox.Show(Tb.Text);
+
+            
+
+            //try
+            //{
+            //    var searchText = int.Parse(TbSearch.Text);
+            //    var employee = App.db.User.FirstOrDefault(x => x.Id == searchText);
+            //    if (employee == null)
+            //    {
+            //        MessageBox.Show("Employee not found");
+            //    }
+            //    else
+            //    {
+            //        MessageBox.Show(employee.Name);
+            //    }
+            //}
+            //catch(ArgumentException argEx)
+            //{
+            //    MessageBox.Show(argEx.Message);
+            //}
+            //catch (FormatException argEx)
+            //{
+            //    MessageBox.Show("Вы ввели неверные данные");
+            //}
+            //catch (Exception ex)
+            //{
+            //    MessageBox.Show("Error");
+            //}
+            //finally
+            //{
+            //    MessageBox.Show("Поиск прошел успешно");
+            //}
+            
+           
         }
+
+        //private void Button_Click(object sender, RoutedEventArgs e)
+        //{
+        //    MessageBox.Show(Tb.Text);
+        //}
     }
 }

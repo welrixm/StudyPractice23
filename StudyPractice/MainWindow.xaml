@@ -7,6 +7,11 @@
         mc:Ignorable="d"
         Title="MainWindow" Height="450" Width="800">
     <Grid>
+
+
+
+        <Frame x:Name="MainFrame" NavigationUIVisibility="Hidden"></Frame>
+        
         <!--<Grid.ColumnDefinitions>
             <ColumnDefinition></ColumnDefinition>
             <ColumnDefinition></ColumnDefinition>
@@ -20,11 +25,13 @@
             <RowDefinition Height="20"></RowDefinition>
 
         </Grid.RowDefinitions>-->
-        <ScrollViewer>
+        <!--<ScrollViewer>
             <DockPanel>
                 <TextBlock Grid.Row="0"   Background="Aqua"  Text="ggggggggg" DockPanel.Dock="Top"></TextBlock>
-
-                <!--<TextBlock    Background="AntiqueWhite" Text="ggggggggg" ></TextBlock>-->
+                <StackPanel>
+                    
+                </StackPanel>
+                --><!--<TextBlock    Background="AntiqueWhite" Text="ggggggggg" ></TextBlock>--><!--
                 <TextBox x:Name="Tb" Grid.Row="1" DockPanel.Dock="Top" Text="dd"></TextBox>
                 <Button Grid.Row="2" DockPanel.Dock="Top" Height="30" Content="Button" Click="Button_Click"></Button>
                 <StackPanel Grid.Row="1" Orientation="Horizontal" DockPanel.Dock="Top">
@@ -72,9 +79,9 @@
                     <TextBlock  Grid.Row="1" Text="Content456" FontSize="30"></TextBlock>
                 </StackPanel>
             </DockPanel>
-        </ScrollViewer>
-        
-        
+        </ScrollViewer>-->
+      
+       
         
     </Grid>
 </Window>
